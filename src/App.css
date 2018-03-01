@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.masked-input {
+  width: 100%;
+  border-radius: 2px;
+  border-style: solid;
+  border-color:#666;
+  border-width: 1px;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.invalid-input{
+  border-color: red;
+  background-color: white;
+}
+
+.checkbox-test{
+  background-color: ivory;
+}
+
+.input-feedback {
+  color:#F00;
+  margin-top: .25rem;
+}
+
+input:disabled {
+  background: pink !important;
+}
+
+select:disabled {
+  background: pink !important;
+}
+
+.select-custom{
+  font-family: sans-serif;
+  font-size: 0.9em;
+  height: 2.25rem !important;
+}
+
+/* @media (max-width: 1000px) {
+  .wrap-flex {
+      flex-direction: column;    
+  }
+ 
+} */
